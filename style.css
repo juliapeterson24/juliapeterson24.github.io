@@ -1,40 +1,58 @@
-.special {
-   color: red;
+body {
+   background-color:rgb(202, 241, 248);
+   text-align: center;
 }
 
-.special2 {
-   background: black;
+.writing{
+   font-family: Arial;
+   font-size: 20px;
+   color: #666666;
+   text-align: center;
 }
 
-a{
-   color: black;
+h1 {
+   color: rgb(100, 41, 236);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 64px;
+   border-bottom-style: dotted;
+   border-width: 10px;
+   border-bottom-color: aquamarine;
+   text-align: center;
 }
 
-section a {
-   color: green;
+.picture {
+      border-radius: 20px;
 }
 
-.container {
-   color: orange;
+.box {
+   background-color: white;
+   width: 600px;
+   height: 15px;
+   border: 20px ridge grey;
+   padding-top: 50px;
+   padding-right: 10px;
+   padding-bottom: 50px;
+   padding-left: 10px;
+   margin: 10px;
 }
 
-
-
-nav li a {
-   color: magenta;
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
-
 
 div {
-   background: red;
+   width: 100px;
    height: 100px;
-   width: 300px;
-   display: inline-block;
-}
-
-span{
-   background:greenyellow;
-   height: 100px;
-   width: 300px;
-   display: block
-}
+   background-color: rgb(194, 197, 238);
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+ }
+ 
+ @keyframes example {
+   from {background-color: rgb(194, 197, 238);} 
+   to {background-color: white;}
+ }
