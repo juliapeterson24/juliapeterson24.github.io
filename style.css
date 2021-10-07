@@ -21,7 +21,7 @@ h1 {
 }
 
 .picture {
-      border-radius: 20px;
+      border-radius: 35px;
 }
 
 .box {
@@ -45,7 +45,7 @@ h1 {
 div {
    width: 100px;
    height: 100px;
-   background-color: rgb(194, 197, 238);
+   background-color: rgb(219, 204, 250);
    animation-name: example;
    animation-duration: 4s;
    animation-iteration-count: infinite;
@@ -53,6 +53,6 @@ div {
  }
  
  @keyframes example {
-   from {background-color: rgb(194, 197, 238);} 
+   from {background-color: rgb(219, 204, 250);} 
    to {background-color: white;}
  }
