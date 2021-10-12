@@ -1,6 +1,5 @@
 body {
    background-color:rgb(202, 241, 248);
-   text-align: center;
 }
 
 .writing{
@@ -20,8 +19,9 @@ h1 {
    text-align: center;
 }
 
-.picture {
+img {
       border-radius: 35px;
+      border: 5px solid white;
 }
 
 .box {
@@ -42,6 +42,12 @@ h1 {
    margin-right: auto;
 }
 
+.border {
+   border: groove;
+   border-width: 5px;
+   border-color: white;
+}
+
 div {
    width: 100px;
    height: 100px;
@@ -55,4 +61,41 @@ div {
  @keyframes example {
    from {background-color: rgb(219, 204, 250);} 
    to {background-color: white;}
+ }
+
+section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+ }
+
+ #regular {
+   color:black;
+   font-size: 30px;
+   text-align: center;
+   border-bottom: none;
+ }
+
+ #caption {
+   font-size: 12px;
+   font-family: 'Times New Roman', Times, serif
+   color: black;
+   text-align: center;
+ }
+
+ #regular h1 {
+   border: none;
+   text-align: center;
+   font-family: "Gill Sans", sans-serif ;
+ }
+
+ .paragraph p {
+    color: navy;
+    font-size: 15px;
+ }
+
+ .writing p {
+    color: black;
+    font-size: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
  }
