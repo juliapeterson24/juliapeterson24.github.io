@@ -1,38 +1,49 @@
+
+
+
 body {
-   background-color:rgb(202, 241, 248);
+   background-color:#e6f1fb;
 }
 
-.writing{
-   font-family: Arial;
-   font-size: 20px;
-   color: #666666;
+p {
+   color: #0b2948;
+   font-family: 'century gothic';
+   font-size: 18px;
+   padding-left: 50px;
+   padding-right: 50px;
+   line-height: 30px;
+}
+
+.header {
+   padding-top: 125px;
+   padding-bottom: 30px;
    text-align: center;
-}
-
-h1 {
-   color: rgb(100, 41, 236);
-   font-family: 'Times New Roman', Times, serif;
+   color: #103d6a;
+   font-family: 'freestyle script';
    font-size: 64px;
-   border-bottom-style: dotted;
-   border-width: 10px;
-   border-bottom-color: aquamarine;
+ }
+
+ .header2 {
+   padding-top: 30px;
+   padding-bottom: 15px;
    text-align: center;
-}
+   color: #103d6a;
+   font-family: 'freestyle script';
+   font-size: 50px; 
+ }
 
-img {
-      border-radius: 35px;
-}
-
-.box {
-   background-color: white;
-   width: 600px;
-   height: 15px;
-   border: 20px ridge grey;
-   padding-top: 50px;
-   padding-right: 10px;
-   padding-bottom: 50px;
-   padding-left: 10px;
-   margin: 10px;
+ footer {
+   color: #0b2948;
+   font-family: 'century gothic';
+   font-size: 12px;
+   padding-left: 50px;
+   padding-right: 50px;
+   line-height: 30px;
+} 
+ 
+ 
+ .coverphoto {
+   border-radius: 200px;
 }
 
 .center {
@@ -41,54 +52,31 @@ img {
    margin-right: auto;
 }
 
-div {
-   width: 100px;
-   height: 100px;
-   background-color: rgb(219, 204, 250);
-   animation-name: example;
-   animation-duration: 4s;
-   animation-iteration-count: infinite;
-   animation-direction: alternate-reverse;
- }
- 
- @keyframes example {
-   from {background-color: rgb(219, 204, 250);} 
-   to {background-color: white;}
- }
+#navbar {
+   overflow: hidden;
+   background-color: #cad9e8;
+   position: fixed;
+   top: 0;
+   width: 105%;
+}
 
-section {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-    text-align: center;
- }
-
- #regular {
-   color:black;
-   font-size: 30px;
+#navbar a  {
+   float: left;
+   display: block;
+   color: #589fe6;
    text-align: center;
-   border-bottom: none;
+   padding: 20px 20px;
+   text-decoration: none;
+   font-size: 18px;
+   font-family: 'century gothic';
+}
+
+#navbar a:hover {
+   background-color: #d0e4f8;
+   color: #0b2948;
  }
 
- #caption {
-   font-size: 12px;
-   font-family: 'Times New Roman', Times, serif
-   color: black;
-   text-align: center;
- }
-
- #regular h1 {
-   border: none;
-   text-align: center;
-   font-family: "Noto Sans", sans-serif ;
- }
-
- .paragraph p {
-    color: navy;
-    font-size: 15px;
- }
-
- .writing p {
-    color: black;
-    font-size: 20px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+ #navbar a.active {
+   background-color: #589fe6;
+   color: white;
  }
